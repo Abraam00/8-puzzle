@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: rgb(4, 4, 4);
+  border: 1px solid #999;
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  color: bisque;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.table{
+  display: absolute;
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+.scramble{
+  margin-left: 620px;
+  margin-top: 100px;
+  width: 150px;
+  height: 80px;
+  font-size: x-large;
+  background-color: black;
+  color: wheat;
+}
+.moves{
+  margin-top: 10px;
+  margin-left: 500px;
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif
+}
